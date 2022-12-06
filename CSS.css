@@ -90,3 +90,134 @@ nav li a:hover{
     height: 100%;
   }
 }
+
+.zonskiachtergrond {
+  background-image: url(img/zonski.jpg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  min-height: 500px;
+  z-index: -2;
+}
+
+
+.lawinesachtergrond {
+  background-image: url(img/lawine11.jpg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  min-height: 350px;
+  z-index: -2;
+}
+
+.Skipistesachergrond {
+  background-image: url(img/pistenski.jpg);
+  background-size: cover;
+  background-position: bottom;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  min-height: 400px;
+  z-index: -2;
+}
+
+.skimerch {
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-content: center;
+  text-align: bottom center;
+  z-index: -2;
+}
+
+.Snowboardachtergrond {
+  background-image: url(img/boardachter.jpg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  min-height: 400px;
+  z-index: -2;
+}
+
+
+h1 {
+  color: #fff;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+th {
+  background-color: #516790;
+}
+
+td {
+  background-color: #ddd;
+}
+
+caption {
+  color: #000;
+  font-size: 20px;
+}
+
+.lawinestabel {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lawinestabel {
+  background-image: url(img/sneeuwmooi.jpg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  min-height: 611px;
+  z-index: -2;
+  outline: 15px solid black;
+}
+
+.textachtergrond {
+  background-image: url(img/mooitext.jpg);
+  background-size: cover;
+  background-position: top;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  min-height: 469px;
+  z-index: -2;
+  outline: 15px solid black;
+  color: #fff;
+}
+
+.textachtergrond2 {
+  background-image: url(img/sneeuw1.jpg);
+  background-size: cover;
+  background-position: top;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  min-height: 569px;
+  z-index: -2;
+  outline: 15px solid black;
+  color: #000;
+}
+
+.textachtergrond2 p {
+  color: #000;
+}
+
+p {
+  color: #fff;
+  margin: 10px;
+}
