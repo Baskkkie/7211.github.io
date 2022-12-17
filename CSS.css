@@ -104,7 +104,7 @@ nav li a:hover{
 
 
 .lawinesachtergrond {
-  background-image: url(img/lawine11.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(img/lawinesmooi.jpeg);
   background-size: cover;
   background-position: center;
   display: grid;
@@ -115,9 +115,9 @@ nav li a:hover{
 }
 
 .Skipistesachergrond {
-  background-image: url(img/pistenski.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(img/norwayskier.webp);
   background-size: cover;
-  background-position: bottom;
+  background-position: center 100vh;
   display: grid;
   place-content: center;
   text-align: center;
@@ -135,7 +135,7 @@ nav li a:hover{
 }
 
 .Snowboardachtergrond {
-  background-image: url(img/boardachter.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(img/boardachter.jpg);
   background-size: cover;
   background-position: center;
   display: grid;
@@ -145,6 +145,38 @@ nav li a:hover{
   z-index: -2;
 }
 
+.wintersportwatishet {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(img/wintersportback.jpg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  min-height: 400px;
+  z-index: -2;
+}
+
+.langlaufachtergrond {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(img/plaatjelanglauf.jpg);
+  background-size: cover;
+  background-position: bottom;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  min-height: 400px;
+  z-index: -2;
+}
+
+.bobachtergrond {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)),url(img/bobsleda.jpg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  min-height: 400px;
+  z-index: -2;
+}
 
 h1 {
   color: #fff;
@@ -155,12 +187,8 @@ th, td {
   border: 1px solid black;
 }
 
-th {
-  background-color: #516790;
-}
-
 td {
-  background-color: #ddd;
+  background-color: #fff;
 }
 
 caption {
@@ -168,15 +196,9 @@ caption {
   font-size: 20px;
 }
 
-.lawinestabel {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .lawinestabel {
-  background-image: url(img/sneeuwmooi.jpg);
+  background-color: #b4dcf6;
   background-size: cover;
   background-position: center;
   display: grid;
@@ -187,37 +209,222 @@ caption {
   outline: 15px solid black;
 }
 
+
+
+.opmaaktabel {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9en;
+  min-width: 400px;
+}
+
+.opmaaktabel thead tr {
+  background-color: #516790;
+}
+
 .textachtergrond {
-  background-image: url(img/mooitext.jpg);
+  background-color: #d1905e;
   background-size: cover;
   background-position: top;
-  display: grid;
-  place-content: center;
-  text-align: center;
-  min-height: 469px;
+  min-height: 669px;
   z-index: -2;
   outline: 15px solid black;
   color: #fff;
+  place-content: center;
+  text-align: center;
 }
 
 .textachtergrond2 {
-  background-image: url(img/sneeuw1.jpg);
+  background-color: #c8e0ea;
   background-size: cover;
   background-position: top;
   display: grid;
   place-content: center;
   text-align: center;
-  min-height: 569px;
+  min-height: 669px;
   z-index: -2;
   outline: 15px solid black;
   color: #000;
 }
 
+.textachtergrond3 {
+  background-color: #cddcee;
+  background-size: cover;
+  background-position: top;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  min-height: 669px;
+  z-index: -2;
+  outline: 15px solid black;
+  color: #000;
+}
+
+.textachtergrond4 {
+  background-color: #a6bec9;
+  background-size: cover;
+  background-position: top;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  min-height: 669px;
+  z-index: -2;
+  outline: 15px solid black;
+  color: #000;
+}
+
+.tekstachtergrond5 {
+  background-color: #a9b2c0;
+  background-size: cover;
+  background-position: top;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  min-height: 669px;
+  z-index: -2;
+  outline: 15px solid black;
+  color: #000;
+}
+
+.tekstachtergrond6 {
+  background-color: #bcc0c1;
+  background-size: cover;
+  background-position: top;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  min-height: 669px;
+  z-index: -2;
+  outline: 15px solid black;
+  color: #000;
+}
+
+
 .textachtergrond2 p {
+  color: #000;
+}
+
+.textachtergrond3 p {
+  color: #000;
+}
+
+.textachtergrond p {
+  color: #000;
+}
+
+.textachtergrond4 p {
+  color: #000;
+}
+
+.tekstachtergrond5 p {
+  color: #000;
+}
+
+.tekstachtergrond6 p {
+  color: #000;
+}
+
+.textachtergrond h3 {
+  color: #000;
+}
+
+.textachtergrond li {
   color: #000;
 }
 
 p {
   color: #fff;
   margin: 10px;
+}
+
+.tekstvakje1skien {
+  width: 420px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 10px;
+  background-color: #fff;
+  position: absolute;
+  top: 520px;
+  left: 130px;
+}
+
+.tekstvakje2skien {
+  width: 420px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 10px;
+  background-color: #fff;
+  position: absolute;
+  top: 520px;
+  left: 1300px;
+}
+
+.tekstvakje3skien {
+  width: 420px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 10px;
+  padding-left: 20px;
+  background-color: #fff;
+  position: absolute;
+  top: 820px;
+  left: 130px;
+}
+
+.tekstvakje4skien {
+  width: 620px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 10px;
+  padding-left: 20px;
+  background-color: #fff;
+  position: absolute;
+  top: 520px;
+  left: 600px;
+}
+
+.tekstvakje1 {
+  width: 420px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 10px;
+  background-color: #fff;
+  position: absolute;
+  top: 420px;
+  left: 130px;
+}
+
+.tekstvakje2 {
+  width: 420px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 10px;
+  background-color: #fff;
+  position: absolute;
+  top: 420px;
+  left: 1300px;
+}
+
+.tekstvakje3 {
+  width: 420px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 10px;
+  padding-left: 20px;
+  background-color: #fff;
+  position: absolute;
+  top: 720px;
+  left: 130px;
+}
+
+.tekstvakje4 {
+  width: 620px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 10px;
+  padding-left: 20px;
+  background-color: #fff;
+  position: absolute;
+  top: 420px;
+  left: 600px;
 }
