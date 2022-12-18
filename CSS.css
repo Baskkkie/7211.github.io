@@ -200,11 +200,9 @@ caption {
 .lawinestabel {
   background-color: #b4dcf6;
   background-size: cover;
-  background-position: center;
   display: grid;
   place-content: center;
-  text-align: center;
-  min-height: 611px;
+  min-height: 610px;
   z-index: -2;
   outline: 15px solid black;
 }
@@ -267,7 +265,7 @@ caption {
   display: grid;
   place-content: center;
   text-align: center;
-  min-height: 669px;
+  min-height: 600px;
   z-index: -2;
   outline: 15px solid black;
   color: #000;
@@ -418,13 +416,30 @@ p {
 }
 
 .tekstvakje4 {
+  min-height: 200px;
   width: 620px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 10px;
+  padding-left: 25px;
+  background-color: #fff;
+  position: absolute;
+  top: 420px;
+  left: 600px;
+}
+
+.tekstvakjelawine {
+  width: 1520px;
   padding: 10px;
   border: 5px solid black;
   margin: 10px;
   padding-left: 20px;
   background-color: #fff;
   position: absolute;
-  top: 420px;
-  left: 600px;
+  top: 355px;
+  left: 200px;
+}
+
+.tekstvakjelawine p {
+  color: #000000;
 }
