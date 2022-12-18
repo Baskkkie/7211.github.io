@@ -5,6 +5,10 @@
   font-family: cursive;
 }
 
+h1, h3, p, li {
+  font-family: 'Poppins', sans-serif;
+}
+
 .navigationbar {
   width: 100%;
   height: 100vh;
@@ -98,7 +102,7 @@ nav li a:hover{
   display: grid;
   place-content: center;
   text-align: center;
-  min-height: 500px;
+  min-height: 520px;
   z-index: -2;
 }
 
@@ -224,7 +228,7 @@ caption {
   background-color: #d1905e;
   background-size: cover;
   background-position: top;
-  min-height: 669px;
+  min-height: 700px;
   z-index: -2;
   outline: 15px solid black;
   color: #fff;
@@ -265,7 +269,7 @@ caption {
   display: grid;
   place-content: center;
   text-align: center;
-  min-height: 600px;
+  min-height: 610px;
   z-index: -2;
   outline: 15px solid black;
   color: #000;
@@ -429,7 +433,7 @@ p {
 }
 
 .tekstvakjelawine {
-  width: 1520px;
+  width: 1720px;
   padding: 10px;
   border: 5px solid black;
   margin: 10px;
@@ -437,7 +441,7 @@ p {
   background-color: #fff;
   position: absolute;
   top: 355px;
-  left: 200px;
+  left: 100px;
 }
 
 .tekstvakjelawine p {
